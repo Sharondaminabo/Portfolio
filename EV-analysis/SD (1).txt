@@ -1,0 +1,27 @@
+% Michelson Interferometer - Interference Visualization
+clear; clc; close all;
+
+% Parameters
+lambda = 632.8e-9;    % Wavelength of light (meters) - e.g., HeNe laser
+d = linspace(0, 2e-6, 1000);  % Mirror difference from 0 to 2 microns
+
+% Phase difference
+delta_phi = (4 * pi * d) / lambda;
+
+% Interference intensity equation
+I0 = 1;  % Max intensity
+I = I0 * cos(delta_phi / 2).^2;
+
+% Plot
+figure;
+plot(d * 1e6, I, 'b-', 'LineWidth', 2);  % d in microns
+xlabel('Path Difference (μm)');
+ylabel('Normalized Intensity');
+title('Interference Pattern in Michelson Interferometer');
+grid on;
+
+% Add markers for constructive/destructive
+hold on;
+plot(d(I > 0.99) * 1e6, I(I > 0.99), 'go', 'DisplayName', 'Constructive');
+plot(d(I < 0.01) * 1e6, I(I < 0.01), 'ro', 'DisplayName', 'Destructive');
+legend('Interference Pattern','Constructive','Destructive');
