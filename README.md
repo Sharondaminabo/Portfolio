@@ -1,8 +1,8 @@
 # Portfolio
-Applied Physics Projects- Data Analysis, Simulations, Programming,and Modeling 
+Applied Physics Projects- Data Analysis, Simulations, Programming, and Modeling 
 # Sharon Daminabo – Applied Physics Portfolio
 
-Applied Physics student at the University of North Carolina at Pembroke with interests in data analysis, environmental sustainability, and physics modeling.
+Applied Physics student at the University of North Carolina at Pembroke with interests in data analysis, environmental sustainability, and physics modeling. Strong mathematics, physics, and chemistry background with experience in data collection and analysis, research, and teaching.
 
 ## Skills
 - programming: MATLAB, Python, C++
@@ -14,15 +14,12 @@ Applied Physics student at the University of North Carolina at Pembroke with int
 
 ## Projects
 
-### EV Energy Analysis
-Analysis of electric vehicle adoption trends and energy demand.
+### Data Collection and Analysis
+Collecting data from Excel and interpreting it through code (MATLAB).
 
-### Heat Diffusion Simulation
-Numerical simulation of heat transfer using finite difference methods.
-
-### Air Pollution Prediction
-Regression model predicting pollution levels using environmental data.
+### Fiber Optics Simulation
+Numerical simulation of the speed of light in fiber cables.
 
 ## Contact
 Email: sharontdaminabo@gmail.com
-LinkedIn: 
+LinkedIn: Sharon Daminabo
