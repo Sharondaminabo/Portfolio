@@ -1,1 +1,55 @@
+# Fiber Optics Simulation: Estimating the Speed of Light Using Excel
 
+## Overview
+This project estimates the speed of light by analyzing the time delay of light traveling through fiber optic cables of different lengths. Using Microsoft Excel, I analyzed the relationship between distance and signal travel time to approximate the propagation speed of light within the fiber.
+
+This simulation demonstrates how fundamental physics principles can be explored using simple data analysis tools.
+
+## Objective
+To estimate the speed of light by measuring how the time delay of a light signal changes with increasing fiber optic cable length.
+
+## Background
+Light travels at approximately:
+
+c = 3.00 × 10^8 m/s in a vacuum.
+
+However, when light travels through a fiber optic cable, it slows down due to the refractive index of the material. By measuring the time delay over known distances, the propagation speed of light in the fiber can be estimated.
+
+The relationship used is:
+
+v = d / t
+
+Where:
+v = speed of light in the medium  
+d = distance traveled  
+t = travel time
+
+## Method
+1. Multiple fiber optic cable lengths were considered.
+2. The time delay for a light pulse traveling through each length was recorded.
+3. The data was organized in Excel with columns for distance and time.
+4. The speed was calculated using the formula:
+
+   Speed = Distance / Time
+
+5. A scatter plot of distance vs. time was created.
+6. A linear trendline was added to determine the slope.
+
+The slope of the distance vs. time graph represents the propagation speed of light in the fiber.
+
+## Tools Used
+- Microsoft Excel
+- Data visualization (scatter plots)
+- Linear regression analysis
+
+## Results
+The distance vs. time plot showed a strong linear relationship, confirming that the propagation of light through the fiber follows a constant velocity model.
+
+The calculated slope of the best-fit line provided an estimate for the speed of light within the fiber optic medium.
+
+Because fiber optics has a refractive index of approximately 1.5, the measured speed is expected to be slightly lower than the vacuum speed of light.
+
+## Conclusion
+This project demonstrates how the speed of light can be estimated using experimental-style data and simple computational tools. By analyzing the relationship between distance and signal delay, the propagation speed of light in fiber optics can be approximated using Excel-based calculations and regression analysis.
+
+This experiment highlights the connection between optics, data analysis, and mathematical modeling.
